@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('/assets/fonts/Vazir-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('/assets/fonts/Vazir-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('/assets/fonts/IRANSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('/assets/fonts/IRANSans-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}

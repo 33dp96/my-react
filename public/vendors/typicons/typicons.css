@@ -38,7 +38,7 @@ url("typicons.svg?b99ba6e7256a27d29176cef7fc322738#typicons") format("svg");
   font-size: 5em;
 }
 
-.typcn-adjust-brightness:before {
+.typcn-adjust-bleftness:before {
   content: "\e000";
 }
 .typcn-adjust-contrast:before {
@@ -74,13 +74,13 @@ url("typicons.svg?b99ba6e7256a27d29176cef7fc322738#typicons") format("svg");
 .typcn-arrow-forward:before {
   content: "\e00b";
 }
-.typcn-arrow-left-outline:before {
+.typcn-arrow-right-outline:before {
   content: "\e00c";
 }
-.typcn-arrow-left-thick:before {
+.typcn-arrow-right-thick:before {
   content: "\e00d";
 }
-.typcn-arrow-left:before {
+.typcn-arrow-right:before {
   content: "\e00e";
 }
 .typcn-arrow-loop-outline:before {
@@ -113,13 +113,13 @@ url("typicons.svg?b99ba6e7256a27d29176cef7fc322738#typicons") format("svg");
 .typcn-arrow-repeat:before {
   content: "\e018";
 }
-.typcn-arrow-right-outline:before {
+.typcn-arrow-left-outline:before {
   content: "\e019";
 }
-.typcn-arrow-right-thick:before {
+.typcn-arrow-left-thick:before {
   content: "\e01a";
 }
-.typcn-arrow-right:before {
+.typcn-arrow-left:before {
   content: "\e01b";
 }
 .typcn-arrow-shuffle:before {
@@ -248,16 +248,16 @@ url("typicons.svg?b99ba6e7256a27d29176cef7fc322738#typicons") format("svg");
 .typcn-chart-pie:before {
   content: "\e045";
 }
-.typcn-chevron-left-outline:before {
+.typcn-chevron-right-outline:before {
   content: "\e046";
 }
-.typcn-chevron-left:before {
+.typcn-chevron-right:before {
   content: "\e047";
 }
-.typcn-chevron-right-outline:before {
+.typcn-chevron-left-outline:before {
   content: "\e048";
 }
-.typcn-chevron-right:before {
+.typcn-chevron-left:before {
   content: "\e049";
 }
 .typcn-clipboard:before {

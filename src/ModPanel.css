@@ -1,0 +1,6 @@
+body {
+    direction: rtl;
+    /* متن و چیدمان از چپ به راست */
+    text-align: right;
+    /* تراز متن به چپ */
+}

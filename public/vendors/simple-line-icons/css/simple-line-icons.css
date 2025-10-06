@@ -33,12 +33,12 @@
 .icon-options-vertical,
 .icon-options,
 .icon-arrow-down,
-.icon-arrow-left,
 .icon-arrow-right,
+.icon-arrow-left,
 .icon-arrow-up,
 .icon-arrow-up-circle,
-.icon-arrow-left-circle,
 .icon-arrow-right-circle,
+.icon-arrow-left-circle,
 .icon-arrow-down-circle,
 .icon-check,
 .icon-clock,
@@ -281,10 +281,10 @@
 .icon-arrow-down:before {
   content: "\e604";
 }
-.icon-arrow-left:before {
+.icon-arrow-right:before {
   content: "\e605";
 }
-.icon-arrow-right:before {
+.icon-arrow-left:before {
   content: "\e606";
 }
 .icon-arrow-up:before {
@@ -293,10 +293,10 @@
 .icon-arrow-up-circle:before {
   content: "\e078";
 }
-.icon-arrow-left-circle:before {
+.icon-arrow-right-circle:before {
   content: "\e07a";
 }
-.icon-arrow-right-circle:before {
+.icon-arrow-left-circle:before {
   content: "\e079";
 }
 .icon-arrow-down-circle:before {

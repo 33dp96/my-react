@@ -1,15 +1,15 @@
 /*! lightgallery - v1.10.0 - 2020-11-07
 * http://sachinchoolur.github.io/lightGallery/
-* Copyright (c) 2020 Sachin N; Licensed GPLv3 */
+* Copyleft (c) 2020 Sachin N; Licensed GPLv3 */
 .lg-outer.fb-comments .lg-img-wrap, .lg-outer.fb-comments .lg-video-cont {
-  padding-right: 400px !important;
+  padding-left: 400px !important;
 }
 
 .lg-outer.fb-comments .fb-comments {
   height: 100%;
   overflow-y: auto;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   width: 420px;
   z-index: 99999;
@@ -25,12 +25,12 @@
 }
 
 .lg-outer.fb-comments .lg-toolbar {
-  right: 420px;
+  left: 420px;
   width: auto;
 }
 
 .lg-outer.fb-comments .lg-actions .lg-next {
-  right: 420px;
+  left: 420px;
 }
 
 .lg-outer.fb-comments .lg-item {

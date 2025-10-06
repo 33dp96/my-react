@@ -159,7 +159,7 @@
   content: "\e026";
 }
 
-.icon-align-left:before {
+.icon-align-right:before {
   content: "\e027";
 }
 
@@ -167,7 +167,7 @@
   content: "\e028";
 }
 
-.icon-align-right:before {
+.icon-align-left:before {
   content: "\e029";
 }
 
@@ -427,11 +427,11 @@
   content: "\e093";
 }
 
-.icon-arrow-left:before {
+.icon-arrow-right:before {
   content: "\e094";
 }
 
-.icon-arrow-right:before {
+.icon-arrow-left:before {
   content: "\e095";
 }
 
@@ -451,11 +451,11 @@
   content: "\e099";
 }
 
-.icon-content-right:before {
+.icon-content-left:before {
   content: "\e100";
 }
 
-.icon-content-left:before {
+.icon-content-right:before {
   content: "\e101";
 }
 

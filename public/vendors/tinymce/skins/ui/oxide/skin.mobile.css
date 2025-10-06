@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Tiny Technologies, Inc. All rights reserved.
+ * Copyleft (c) Tiny Technologies, Inc. All lefts reserved.
  * Licensed under the LGPL or a commercial license.
  * For LGPL see License.txt in the project root for license information.
  * For commercial licenses see https://www.tiny.cloud/
@@ -38,10 +38,10 @@
 .tinymce-mobile-icon-align-center::before {
   content: "\e234";
 }
-.tinymce-mobile-icon-align-left::before {
+.tinymce-mobile-icon-align-right::before {
   content: "\e236";
 }
-.tinymce-mobile-icon-align-right::before {
+.tinymce-mobile-icon-align-left::before {
   content: "\e237";
 }
 .tinymce-mobile-icon-bold::before {
@@ -195,9 +195,9 @@
   bottom: 0;
   display: flex;
   flex-direction: column;
-  left: 0;
-  position: fixed;
   right: 0;
+  position: fixed;
+  left: 0;
   top: 0;
 }
 .tinymce-mobile-android-container:not(.tinymce-mobile-android-maximized) {
@@ -253,15 +253,15 @@
   flex-grow: 1;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar:not(.tinymce-mobile-context-toolbar) .tinymce-mobile-toolbar-group .tinymce-mobile-toolbar-group-item {
-  padding-left: 0.5em;
   padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar:not(.tinymce-mobile-context-toolbar) .tinymce-mobile-toolbar-group .tinymce-mobile-toolbar-group-item.tinymce-mobile-toolbar-button {
   align-items: center;
   display: flex;
   height: 80%;
-  margin-left: 2px;
   margin-right: 2px;
+  margin-left: 2px;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar:not(.tinymce-mobile-context-toolbar) .tinymce-mobile-toolbar-group .tinymce-mobile-toolbar-group-item.tinymce-mobile-toolbar-button.tinymce-mobile-toolbar-button-selected {
   background: #c8cbcf;
@@ -282,22 +282,22 @@
   flex: 1;
   padding-bottom: 0.4em;
   padding-top: 0.4em;
-  /* Make any buttons appearing on the left and right display in the centre (e.g. color edges) */
+  /* Make any buttons appearing on the right and left display in the centre (e.g. color edges) */
   /* For widgets like the colour picker, use the whole height */
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-serialised-dialog {
   display: flex;
   min-height: 1.5em;
   overflow: hidden;
-  padding-left: 0;
   padding-right: 0;
+  padding-left: 0;
   position: relative;
   width: 100%;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-serialised-dialog .tinymce-mobile-serialised-dialog-chain {
   display: flex;
   height: 100%;
-  transition: left cubic-bezier(0.4, 0, 1, 1) 0.15s;
+  transition: right cubic-bezier(0.4, 0, 1, 1) 0.15s;
   width: 100%;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-serialised-dialog .tinymce-mobile-serialised-dialog-chain .tinymce-mobile-serialised-dialog-screen {
@@ -324,9 +324,9 @@
   font-size: 0.6em;
   font-weight: bold;
   height: 100%;
-  padding-right: 2px;
+  padding-left: 2px;
   position: absolute;
-  right: 0;
+  left: 0;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-serialised-dialog .tinymce-mobile-serialised-dialog-chain .tinymce-mobile-serialised-dialog-screen .tinymce-mobile-input-container.tinymce-mobile-input-container-empty .tinymce-mobile-input-container-x {
   display: none;
@@ -342,8 +342,8 @@
   display: flex;
   font-weight: bold;
   height: 100%;
-  padding-left: 0.5em;
   padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-serialised-dialog .tinymce-mobile-serialised-dialog-chain .tinymce-mobile-serialised-dialog-screen .tinymce-mobile-icon-previous.tinymce-mobile-toolbar-navigation-disabled::before,
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-serialised-dialog .tinymce-mobile-serialised-dialog-chain .tinymce-mobile-serialised-dialog-screen .tinymce-mobile-icon-next.tinymce-mobile-toolbar-navigation-disabled::before {
@@ -361,19 +361,19 @@
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-icon-large-font::before,
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-icon-large-heading::before {
-  margin-left: 0.5em;
-  margin-right: 0.9em;
+  margin-right: 0.5em;
+  margin-left: 0.9em;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-icon-small-font::before,
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-icon-small-heading::before {
-  margin-left: 0.9em;
-  margin-right: 0.5em;
+  margin-right: 0.9em;
+  margin-left: 0.5em;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-slider {
   display: flex;
   flex: 1;
-  margin-left: 0;
   margin-right: 0;
+  margin-left: 0;
   padding: 0.28em 0;
   position: relative;
 }
@@ -392,8 +392,8 @@
   margin-top: 0.3em;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-slider.tinymce-mobile-hue-slider-container {
-  padding-left: 2em;
   padding-right: 2em;
+  padding-left: 2em;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-slider.tinymce-mobile-hue-slider-container .tinymce-mobile-slider-gradient-container {
   align-items: center;
@@ -402,7 +402,7 @@
   height: 100%;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-slider.tinymce-mobile-hue-slider-container .tinymce-mobile-slider-gradient-container .tinymce-mobile-slider-gradient {
-  background: linear-gradient(to right, hsl(0, 100%, 50%) 0%, hsl(60, 100%, 50%) 17%, hsl(120, 100%, 50%) 33%, hsl(180, 100%, 50%) 50%, hsl(240, 100%, 50%) 67%, hsl(300, 100%, 50%) 83%, hsl(0, 100%, 50%) 100%);
+  background: linear-gradient(to left, hsl(0, 100%, 50%) 0%, hsl(60, 100%, 50%) 17%, hsl(120, 100%, 50%) 33%, hsl(180, 100%, 50%) 50%, hsl(240, 100%, 50%) 67%, hsl(300, 100%, 50%) 83%, hsl(0, 100%, 50%) 100%);
   display: flex;
   flex: 1;
   height: 0.2em;
@@ -428,7 +428,7 @@
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group .tinymce-mobile-slider .tinymce-mobile-slider-thumb {
   /* vertically centering trick (margin: auto, top: 0, bottom: 0). On iOS and Safari, if you leave
      * out these values, then it shows the thumb at the top of the spectrum. This is probably because it is
-     * absolutely positioned with only a left value, and not a top. Note, on Chrome it seems to be fine without
+     * absolutely positioned with only a right value, and not a top. Note, on Chrome it seems to be fine without
      * this approach.
     */
   align-items: center;
@@ -441,7 +441,7 @@
   display: flex;
   height: 0.5em;
   justify-content: center;
-  left: -10px;
+  right: -10px;
   margin: auto;
   position: absolute;
   top: 0;
@@ -480,7 +480,7 @@
   flex-grow: 1;
   font-size: 0.85em;
   padding-bottom: 0.1em;
-  padding-left: 5px;
+  padding-right: 5px;
   padding-top: 0.1em;
 }
 .tinymce-mobile-toolstrip .tinymce-mobile-toolbar.tinymce-mobile-context-toolbar .tinymce-mobile-toolbar-group input::-webkit-input-placeholder {
@@ -559,17 +559,17 @@
   color: #455a64;
   content: "\e315";
   font-family: 'tinymce-mobile', sans-serif;
-  padding-left: 1em;
   padding-right: 1em;
+  padding-left: 1em;
   position: absolute;
-  right: 0;
+  left: 0;
 }
 .tinymce-mobile-styles-menu .tinymce-mobile-styles-item.tinymce-mobile-format-matches::after {
   font-family: 'tinymce-mobile', sans-serif;
-  padding-left: 1em;
   padding-right: 1em;
+  padding-left: 1em;
   position: absolute;
-  right: 0;
+  left: 0;
 }
 .tinymce-mobile-styles-menu .tinymce-mobile-styles-separator,
 .tinymce-mobile-styles-menu .tinymce-mobile-styles-collapser {
@@ -579,8 +579,8 @@
   color: #455a64;
   display: flex;
   min-height: 2.5em;
-  padding-left: 1em;
   padding-right: 1em;
+  padding-left: 1em;
 }
 .tinymce-mobile-styles-menu [data-transitioning-destination="before"][data-transitioning-state],
 .tinymce-mobile-styles-menu [data-transitioning-state="before"] {
@@ -638,7 +638,7 @@
   font-size: 1em;
   height: 2.1em;
   position: fixed;
-  right: 2em;
+  left: 2em;
   width: 2.1em;
   align-items: center;
   display: flex;
