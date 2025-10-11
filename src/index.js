@@ -4,14 +4,15 @@ import ReactDOM from 'react-dom/client';
 // import './SignUp.css';
 import './index.css';
 // import Todowithswiper1 from './Todowithswiper1.js';
-import ModPanel from './ModPanel.js';
+//import ModPanel from './ModPanel.js';
 import reportWebVitals from './reportWebVitals.js';
 // import App from './App.js';
-// import Dashboard from './Dashboard.jsx';
+import Dashboard from './Dashboard.js';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ModPanel />
+    <Dashboard/>
   </React.StrictMode>
 );
 

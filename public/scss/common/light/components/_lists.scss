@@ -18,11 +18,10 @@ dl {
   li {
     padding-left: 1.5rem;
     &:before {
-      font-family: "themify";
+      font-family: "typicons";
       margin-left: -1.5rem;
       width: 1.5rem;
       margin-right: .5rem;
-      font-size: .6rem;
     }
   }
 }
@@ -30,8 +29,8 @@ dl {
 .list-ticked {
   li {
     &:before {
-      content: '\e64c';
-      color: $danger;
+      content: '\e11e';
+      color: theme-color(danger);
     }
   }
 }
@@ -39,8 +38,8 @@ dl {
 .list-arrow {
   li {
     &:before {
-      content: '\e649';
-      color: $success;
+      content: '\e049';
+      color: theme-color(success);
     }
   }
 }
@@ -48,8 +47,8 @@ dl {
 .list-star {
   li {
     &:before {
-      content: '\e60a';
-      color: $warning;
+      content: '\e109';
+      color: theme-color(warning);
     }
   }
 }
@@ -80,7 +79,7 @@ dl {
       width: 10px;
       height: 10px;
       border-radius: 100%;
-      background: $primary;
+      background: theme-color(primary);
       z-index: 1;
     }
   }
@@ -99,7 +98,6 @@ dl {
   padding-left: 30px;
   position: relative;
   list-style-type: none;
-  margin-bottom: 0;
   .rtl & {
     padding-left: unset;
     padding-right: 30px;
@@ -107,19 +105,16 @@ dl {
 
   li {
     position: relative;
-    padding-bottom: 10px;
-    &:last-child {
-      padding-bottom: 0;
-    }
+
     &:before {
-      width: 13px;
-      height: 13px;
-      left: -28px;
-      top: 6px;
-      border: 4px solid  #E9EDFB;
+      width: 15px;
+      height: 15px;
+      left: -30px;
+      top: 0;
+      border: 4px solid theme-color(primary);
       margin-right: 15px;
       z-index: 2;
-      background: $primary;
+      background: color(white);
 
       .rtl & {
         left: unset;
@@ -138,34 +133,12 @@ dl {
     content: "";
     border: 1px solid $border-color;
     position: absolute;
-    top: 3px;
+    top: 0;
     bottom: 0;
     left: 7px;
     .rtl & {
       left: unset;
       right: 7px;
-    }
-  }
-  &:last-child {
-    &:after {
-      display: none;
-    }
-  }
-}
-
-.icon-data-list {
-  list-style-type: none;
-  padding-left: 0;
-  position: relative;
-  margin-bottom: 0;
-  font-family: $type1;
-  li {
-    margin-bottom:1rem;
-    img {
-      width: 40px;
-      height: 40px;
-      margin-right: 10px;
-      border-radius:100%;
     }
   }
 }

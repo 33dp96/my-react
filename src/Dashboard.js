@@ -154,7 +154,151 @@ export default function Dashboard(){
                         </a>
                     </div>
                 </div>
+                <div className="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+                    <ul className="navbar-nav mr-lg-2">
+                        <li className="nav-item ml-0">
+                            <h4 className="mb-0">Dashboard</h4>
+                        </li>
+                        <li className="nav-item">
+                            <div className="d-flex align-items-baseline">
+                                <p className="mb-0">Home</p>
+                                <i className="typcn typcn-chevron-right"></i>
+                                <p className="mb-0">Main Dahboard</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul className="navbar-nav navbar-nav-right">
+                        <li className="nav-item nav-search d-none d-md-block mr-0">
+                            <div className="input-group">
+                                <input type="text" className="form-control" placeholder="Search..." aria-label="search" aria-describedby="search"/>
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text" id="search">
+                                        <i className="typcn typcn-zoom"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </nav>
+            <div className="container-fluid page-body-wrapper">
+                {/* partial:partials/_settings-panel.html */}
+                <div className="theme-setting-wrapper">
+                    <div id="settings-trigger">
+                        <i className="typcn typcn-cog-outline"></i>
+                    </div>
+                    <div className="settings-panel" id="theme-settings">
+                        <i className="settings-close typcn typcn-times"></i>
+                        <p className="settings-heading">SIDEBAR SKINS</p>
+                        <div className="sidebar-bg-options selected" id="sidebar-light-theme">
+                            <div className="img-ss rounded-circle bg-light border mr-3"></div>
+                            Light
+                        </div>
+                        <div className="sidebar-bg-options" id="sidebar-dark-theme">
+                            <div className="img-ss rounded-circle bg-dark border mr-3"></div>
+                            Dark
+                        </div>
+                        <p className="settings-heading mt-2">HEADER SKINS</p>
+                        <div className="color-tiles mx-0 px-4">
+                            <div className="tiles success"></div>
+                            <div className="tiles warning"></div>
+                            <div className="tiles danger"></div>
+                            <div className="tiles info"></div>
+                            <div className="tiles dark"></div>
+                            <div className="tiles default"></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="settings-panel" id="right-sidebar">
+                    <i className="settings-close typcn typcn-times"></i>
+                    <ul className="nav nav-tabs" id="setting-panel" role="tablist">
+                        <li className="nav-item">
+                            <a href="#todo-section" className="nav-link active" id="todo-tab" data-toggle="tab" role="tab" aria-controls="todo-section" aria-expanded="true">TO DO LIST</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#todo-section" className="nav-link" id="chats-tab" data-toggle="tab" role="tab" aria-controls="chats-section" aria-expanded="true">CHATS</a>
+                        </li>
+                    </ul>
+                    <div className="tab-content" id="setting-content">
+                        <div className="tab-pane fade show active scroll-wrapper ps ps--active-y" id="todo-section" role="tabpanel" aria-labelledby="todo-section">
+                            <div className="add-items d-flex px-3 mb-0">
+                                <form className="form w-100">
+                                    <div className="form-group d-flex">
+                                        <input type="text" className="form-control todo-list-input" placeholder="Add To-do"/>
+                                        <button className="add btn btn-primary todo-list-add-btn" id="add-task" type="submit">Add</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div className="list-wrapper px-3">
+                                <ul className="d-flex flex-column-reverse todo-list">
+                                    <li>
+                                        ::marker
+                                        <div className="form-check">
+                                            <label className="form-check-label">
+                                                <input type="checkbox" className="checkbox"/>
+                                                Team review meeting at 3.00 PM
+                                                <i className="input-helper"></i>
+                                            </label>
+                                        </div>
+                                        <i className="remove typcn typcn-delete-outline"></i>
+                                    </li>
+                                    <li>
+                                        ::marker
+                                        <div className="form-check">
+                                            <label className="form-check-label">
+                                                <input type="checkbox" className="checkbox"/>
+                                                Prepare for presentation
+                                                <i className="input-helper"></i>
+                                            </label>
+                                        </div>
+                                        <i className="remove typcn typcn-delete-outline"></i>
+                                    </li>
+                                    <li>
+                                        ::marker
+                                        <div className="form-check">
+                                            <label className="form-check-label">
+                                                <input type="checkbox" className="checkbox"/>
+                                                Resolve all the low priority tickets due today
+                                                <i className="input-helper"></i>
+                                            </label>
+                                        </div>
+                                        <i className="remove typcn typcn-delete-outline"></i>
+                                    </li>
+                                    <li className="completed">
+                                        ::marker
+                                        <div className="form-check">
+                                            <label className="form-check-label">
+                                                <input type="checkbox" className="checkbox" checked=""/>
+                                                Schedule meeting for next week
+                                                <i className="input-helper"></i>
+                                            </label>
+                                        </div>
+                                        <i className="remove typcn typcn-delete-outline"></i>
+                                    </li>
+                                    <li className="completed">
+                                        ::marker
+                                        <div className="form-check">
+                                            <label className="form-check-label">
+                                                <input type="checkbox" className="checkbox" checked="" />
+                                                Project review
+                                                <i className="input-helper"></i>
+                                            </label>
+                                        </div>
+                                        <i className="remove typcn typcn-delete-outline"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="events py-4 border-bottom px-3">
+                                <div className="wrapper d-flex mb-2">
+                                    <i className="typcn typcn-media-record-outline text-primary mr-2"></i>
+                                    <span>Feb 11 2018</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
         </div>
     </>
 }

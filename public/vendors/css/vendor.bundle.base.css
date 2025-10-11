@@ -30,8 +30,8 @@
   transition: background-color .2s linear, opacity .2s linear;
   -webkit-transition: background-color .2s linear, opacity .2s linear;
   width: 15px;
-  /* there must be 'left' or 'right' for ps__rail-y */
-  left: 0;
+  /* there must be 'right' or 'left' for ps__rail-y */
+  right: 0;
   /* please don't change 'position' */
   position: absolute;
 }
@@ -51,12 +51,10 @@
   opacity: 0.6;
 }
 
-.ps .ps__rail-x:hover,
-.ps .ps__rail-y:hover,
-.ps .ps__rail-x:focus,
-.ps .ps__rail-y:focus,
-.ps .ps__rail-x.ps--clicking,
-.ps .ps__rail-y.ps--clicking {
+.ps__rail-x:hover,
+.ps__rail-y:hover,
+.ps__rail-x:focus,
+.ps__rail-y:focus {
   background-color: #eee;
   opacity: 0.9;
 }
@@ -82,22 +80,20 @@
   transition: background-color .2s linear, width .2s ease-in-out;
   -webkit-transition: background-color .2s linear, width .2s ease-in-out;
   width: 6px;
-  /* there must be 'left' for ps__thumb-y */
-  left: 2px;
+  /* there must be 'right' for ps__thumb-y */
+  right: 2px;
   /* please don't change 'position' */
   position: absolute;
 }
 
 .ps__rail-x:hover > .ps__thumb-x,
-.ps__rail-x:focus > .ps__thumb-x,
-.ps__rail-x.ps--clicking .ps__thumb-x {
+.ps__rail-x:focus > .ps__thumb-x {
   background-color: #999;
   height: 11px;
 }
 
 .ps__rail-y:hover > .ps__thumb-y,
-.ps__rail-y:focus > .ps__thumb-y,
-.ps__rail-y.ps--clicking .ps__thumb-y {
+.ps__rail-y:focus > .ps__thumb-y {
   background-color: #999;
   width: 11px;
 }
