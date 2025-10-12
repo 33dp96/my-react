@@ -112,7 +112,7 @@ export default function LayoutMenu(){
                             </a>
                         </li>
                         <li className="menu-item">
-                            <a href="../horizontal-menu-template/" className="menu-link" target="_blank">
+                            <a href="/horizontal-menu-template/" className="menu-link" target="_blank">
                                 <div data-i18n="Horizontal">Horizontal</div>
                             </a>
                         </li>
@@ -151,27 +151,27 @@ export default function LayoutMenu(){
                     </a>
                     <ul className="menu-sub">
                         <li className="menu-item">
-                            <a href="../front-pages/landing-page.html" className="menu-link" target="_blank">
+                            <a href="/front-pages/landing-page.html" className="menu-link" target="_blank">
                                 <div data-i18n="Landing">Landing</div>
                             </a>
                         </li>
                         <li className="menu-item">
-                            <a href="../front-pages/pricing-page.html" className="menu-link" target="_blank">
+                            <a href="/front-pages/pricing-page.html" className="menu-link" target="_blank">
                                 <div data-i18n="Pricing">Pricing</div>
                             </a>
                         </li>
                         <li className="menu-item">
-                            <a href="../front-pages/payment-page.html" className="menu-link" target="_blank">
+                            <a href="/front-pages/payment-page.html" className="menu-link" target="_blank">
                                 <div data-i18n="Payment">Payment</div>
                             </a>
                         </li>
                         <li className="menu-item">
-                            <a href="../front-pages/checkout-page.html" className="menu-link" target="_blank">
+                            <a href="/front-pages/checkout-page.html" className="menu-link" target="_blank">
                                 <div data-i18n="Checkout">Checkout</div>
                             </a>
                         </li>
                         <li className="menu-item">
-                            <a href="../front-pages/help-center-landing.html" className="menu-link" target="_blank">
+                            <a href="/front-pages/help-center-landing.html" className="menu-link" target="_blank">
                                 <div data-i18n="Help Center">Help Center</div>
                             </a>
                         </li>
