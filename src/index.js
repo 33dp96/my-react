@@ -6,7 +6,7 @@ import './index.css';
 // import Todowithswiper1 from './Todowithswiper1.js';
 // import Todowithswiper2 from './Todowithswiper2.js';
 import reportWebVitals from './reportWebVitals.js';
-import Sneat from './Sneat.js';
+import StarAdmin from './StarAdmin.js';
 
 
 
@@ -14,7 +14,7 @@ import Sneat from './Sneat.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Sneat />
+    <StarAdmin/>
   </React.StrictMode>
 );
 
