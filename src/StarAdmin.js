@@ -1,5 +1,11 @@
 import Navbar from "./Components/StarAdmin/Navbar";
-
-<div className="container-scroller">
-     <Navbar/>
-</div>
+export default function StarAdmin(){
+     return<>
+          <div className="container-scroller">
+               <Navbar/>
+               <div className="container-fluid page-body-wrapper">
+                    
+               </div>
+          </div>
+     </>
+}

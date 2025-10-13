@@ -1,13 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import StarAdmin from './StarAdmin';
+import React from 'react.js';
+import ReactDOM from 'react-dom/client.js';
+import './index.css';
+import StarAdmin from './StarAdmin.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <React.StrictMode>
-        <StarAdmin />
-    </React.StrictMode>
+  <React.StrictMode>
+    <StarAdmin />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
