@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import StarAdmin from './StarAdmin';
+// import StarAdmin from './StarAdmin';
 import reportWebVitals from './reportWebVitals';
+// import SignUp from './SignUp';
+import Sneat from './Sneat';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <StarAdmin />
+        <SignUp />
     </React.StrictMode>
 );
 
