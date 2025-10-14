@@ -1,4 +1,4 @@
-import Navbar from "./Components/StarAdmin/UIElements/Bottons/Navbar";
+import Navbar from "./Components/StarAdmin/Navbar";
 
 export default function Buttons(){
     return<>
