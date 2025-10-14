@@ -1,8 +1,8 @@
-import Buttons from "./Components/StarAdmin/Bottons";
-import Navbar from "./Components/StarAdmin/Navbar";
-import SettingsPanel from "./Components/StarAdmin/SettingsPanel";
-import Sidebar from "./Components/StarAdmin/Sidebar";
-import ThemeSettingWrapper from "./Components/StarAdmin/ThemeSettingWrapper";
+import Buttons from "./Components/StarAdmin/Dashboard/Bottons";
+import Navbar from "./Components/StarAdmin/Dashboard/Navbar";
+import SettingsPanel from "./Components/StarAdmin/Dashboard/SettingsPanel";
+import Sidebar from "./Components/StarAdmin/Dashboard/Sidebar";
+import ThemeSettingWrapper from "./Components/StarAdmin/Dashboard/ThemeSettingWrapper";
 export default function StarAdmin(){
      return<>
           <div className="container-scroller">

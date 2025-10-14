@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import StarAdmin from './StarAdmin';
+import StarAdmin from './StarAdmin';
 import reportWebVitals from './reportWebVitals';
 // import SignUp from './SignUp';
-import Sneat from './Sneat';
+import Buttons from './Buttons';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <SignUp />
+        <Buttons />
     </React.StrictMode>
 );
 
