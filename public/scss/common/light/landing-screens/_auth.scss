@@ -36,14 +36,14 @@
 		background: transparent;
 		.form-control,
 		.input-group-text {
-			border-color: $secondary;
+			border-color: theme-color(secondary);
 			&:focus,
 			&:active {
-				border-color: $secondary;
+				border-color: theme-color(secondary);
 			}
 		}
 		select {
-			outline-color: $secondary;
+			outline-color: theme-color(secondary);
 		}
 	}
 	&.auth-img-bg {
@@ -58,7 +58,7 @@
 	.brand-logo {
 		margin-bottom: 2rem;
 		img {
-			width: 90px;
+			width: 150px;
 		}
 	}
 	form {
@@ -74,7 +74,7 @@
 			}
 		}
 		.auth-form-btn {
-			padding: 1rem 3rem;
+			height: 50px;
 			line-height: 1.5;
 		}
 		.auth-link {

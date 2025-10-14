@@ -9,7 +9,7 @@ export default function SidebarBottons() {
                     </a>
                 </li>
                 <li className="nav-item nav-category">UI Elements</li>
-                <li className="nav-item active">
+                <li className="nav-item">
                     {/* <Link className="nav-link" to="/FunctionalComponent">
                         Functioal component
                     </Link> */}

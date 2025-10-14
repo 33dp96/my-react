@@ -30,13 +30,10 @@
 .img-sm {
   width: 43px;
   height: 43px;
-  &.rounded-10 {
-    border-radius: 10px;
-  }
 }
 .img-xs {
-  width: 32px;
-  height: 32px;
+  width: 37px;
+  height: 37px;
 }
 .img-ss {
   width: 26px;
@@ -94,23 +91,8 @@
 
 .text-small {
   font-size: 12px;
-  &.ps-4 {
-    padding-left: 30px !important;
-  }
 }
 
 .flex-grow {
   flex-grow: 1;
-}
-
-.hover-cursor {
-  &:hover {
-    cursor: pointer;
-  }
-}
-.min-width-cell {
-  min-width: 110px;
-}
-.font-weight-medium {
-  font-weight: 500;
 }

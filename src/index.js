@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 // import StarAdmin from './StarAdmin';
 import reportWebVitals from './reportWebVitals';
 // import SignUp from './SignUp';
-import Buttons from './Buttons';
+// import Buttons from './Buttons';
+import PolluxUI from './PolluxUI';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Buttons />
+        <PolluxUI />
     </React.StrictMode>
 );
 
