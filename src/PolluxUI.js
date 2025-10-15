@@ -1,5 +1,8 @@
+import EmailAddress from "./Components/PolluxUI/EmailAddress";
 import IncomeStatistics from "./Components/PolluxUI/IncomeStatistics";
 import Navbar from "./Components/PolluxUI/Navbar";
+import OverallSales from "./Components/PolluxUI/OverallSales";
+import Phone from "./Components/PolluxUI/Phone";
 import SettingsPanel from "./Components/PolluxUI/SettingsPanel";
 import Sidebar from "./Components/PolluxUI/Sidebar";
 import StatusStatistics from "./Components/PolluxUI/StatusStatistics";
@@ -21,7 +24,16 @@ export default function PolluxUI(){
               <StatusStatistics/>
               <IncomeStatistics/>
             </div>
-            <div className="row"></div>
+            <div className="row">
+              <OverallSales/>
+              <div className="col-md-6 col-xl-4 grid-margin stretch-card">
+                <div className="row">
+                  <EmailAddress/>
+                  <Phone/>
+                </div>
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>
