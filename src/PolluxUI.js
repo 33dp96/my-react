@@ -21,6 +21,7 @@ export default function PolluxUI(){
               <StatusStatistics/>
               <IncomeStatistics/>
             </div>
+            <div className="row"></div>
           </div>
         </div>
       </div>
