@@ -1,5 +1,8 @@
+import IncomeStatistics from "./Components/PolluxUI/IncomeStatistics";
 import Navbar from "./Components/PolluxUI/Navbar";
 import SettingsPanel from "./Components/PolluxUI/SettingsPanel";
+import Sidebar from "./Components/PolluxUI/Sidebar";
+import StatusStatistics from "./Components/PolluxUI/StatusStatistics";
 import SubNavbar from "./Components/PolluxUI/SubNavbar";
 import ThemeSettingWrapper from "./Components/PolluxUI/ThemeSettingWrapper";
 
@@ -11,6 +14,15 @@ export default function PolluxUI(){
       <div className="container-fluid page-body-wrapper">
         <ThemeSettingWrapper/>
         <SettingsPanel/>
+        <Sidebar/>
+        <div className="main-panel">
+          <div className="content-wrapper">
+            <div className="row">
+              <StatusStatistics/>
+              <IncomeStatistics/>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </>

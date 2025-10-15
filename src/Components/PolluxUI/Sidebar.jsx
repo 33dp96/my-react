@@ -6,7 +6,6 @@ export default function Sidebar(){
                     <a className="nav-link" href="index.html">
                         <i className="typcn typcn-device-desktop menu-icon"></i>
                         <span className="menu-title">Dashboard</span>
-                        <div className="badge badge-danger">new</div>
                     </a>
                 </li>
                 <li className="nav-item">
