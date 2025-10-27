@@ -1,4 +1,13 @@
+import { useEffect } from "react"
+
 export default function Navbar(){
+
+    useEffect(() => {
+      // document.querySelector('#bannerClose').addEventListener('click', function () {
+      //   document.querySelector('#proBanner').classList.add('d-none');
+      // });
+    }, [])
+
     return<>
        <nav className="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div className="navbar-brand-wrapper d-flex justify-content-center">
@@ -34,7 +43,7 @@ export default function Navbar(){
         </ul>
         <ul className="navbar-nav navbar-nav-right">
           <li className="nav-item nav-date dropdown">
-            <a className="nav-link d-flex justify-content-center align-items-center" href="javascript:;">
+            <a className="nav-link d-flex justify-content-center align-items-center" href="#">
               <h6 className="date mb-0">Today : Mar 23</h6>
               <i className="typcn typcn-calendar"></i>
             </a>

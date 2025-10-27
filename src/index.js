@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import StarAdmin from './StarAdmin';
+import Store from './Store';
 import reportWebVitals from './reportWebVitals';
 // import SignUp from './SignUp';
 // import Buttons from './Buttons';
-import PolluxUI from './PolluxUI';
+// import PolluxUI from './PolluxUI';
+// import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <PolluxUI />
+        <Store />
     </React.StrictMode>
 );
 
