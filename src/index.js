@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Store from './Store';
+import IPortfolio from './IPortfolio';
 import reportWebVitals from './reportWebVitals';
-// import SignUp from './SignUp';
-// import Buttons from './Buttons';
-// import PolluxUI from './PolluxUI';
 // import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Store />
+        <IPortfolio />
     </React.StrictMode>
 );
 
