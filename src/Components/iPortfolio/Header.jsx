@@ -8,8 +8,7 @@ export default function Header(){
             </div>
 
             <a href="index.html" className="logo d-flex align-items-center justify-content-center">
-
-                <h1 className="sitename">Alex Smith</h1>
+                <h1 className="sitename">Daniel Potter</h1>
             </a>
 
             <div className="social-links text-center">
@@ -27,7 +26,7 @@ export default function Header(){
                     <li><a href="#resume"><i className="bi bi-file-earmark-text navicon"></i> Resume</a></li>
                     <li><a href="#portfolio"><i className="bi bi-images navicon"></i> Portfolio</a></li>
                     <li><a href="#services"><i className="bi bi-hdd-stack navicon"></i> Services</a></li>
-                    <li className="dropdown"><a href="#" className="active"><i className="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
+                    {/* <li className="dropdown"><a href="#" className="active"><i className="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul className="dropdown-active">
                             <li><a href="#">Dropdown 1</a></li>
                             <li className="dropdown"><a href="#" className="active"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -43,7 +42,7 @@ export default function Header(){
                             <li><a href="#">Dropdown 3</a></li>
                             <li><a href="#">Dropdown 4</a></li>
                         </ul>
-                    </li>
+                    </li> */}
                     <li><a href="#contact"><i className="bi bi-envelope navicon"></i> Contact</a></li>
                 </ul>
             </nav>
